@@ -5,3 +5,11 @@
 **/ray_results/
 **/rllib_checkpoint.json
 **/experiment/
+
+*.pkl 
+*.o 
+*.out 
+*.exe 
+*.class 
+*.pyc 
+*.json
