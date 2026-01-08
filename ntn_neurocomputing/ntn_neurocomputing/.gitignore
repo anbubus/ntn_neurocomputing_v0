@@ -1,0 +1,7 @@
+
+# Ray / RLlib / PPO
+**/checkpoint_*/
+**/checkpoints/
+**/ray_results/
+**/rllib_checkpoint.json
+**/experiment/
