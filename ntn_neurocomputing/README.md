@@ -1,1 +1,1 @@
-Experiments for the paper "Functional Gradient Descent for n-tuple Regression"
+Studies from the paper "Functional Gradient Descent for n-tuple Regression"
