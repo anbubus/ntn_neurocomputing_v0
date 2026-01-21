@@ -4,7 +4,7 @@ import torch
 from torch import nn
 import torch.nn.functional as F
 
-from ntn_neurocomputing.wnn.ntn_encodings import Thermometer, CircularEncoder
+from ntn_neurocomputing_v0.wnn.ntn_encodings import Thermometer, CircularEncoder
 
 from ray.rllib.models.torch.torch_modelv2 import TorchModelV2
 from ray.rllib.utils.annotations import override
