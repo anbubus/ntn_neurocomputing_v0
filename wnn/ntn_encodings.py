@@ -1,6 +1,5 @@
 import torch
 
-
 class Thermometer(object):
     def __init__(self, minimum, maximum, resolution):
         self.minimum = minimum
