@@ -17,7 +17,7 @@ class NTNModel(TorchModelV2, nn.Module):
         nn.Module.__init__(self)
 
         self.res = encoding.get("resolution", 512)
-        self.input_dim = int(np.product(obs_space.shape)) * self.res
+        self.input_dim = int(np.prod(obs_space.shape)) * self.res
         self.policy_output_dim = torch.Size([num_outputs])
         self.vf_output_dim = torch.Size([1])
         self.tuple_size = tuple_size
